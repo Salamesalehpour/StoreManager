@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreManager.Common\StoreManager.Common.csproj" />
+    <ProjectReference Include="..\StoreManager.DA\StoreManager.DA.csproj" />
+  </ItemGroup>
+
+</Project>
