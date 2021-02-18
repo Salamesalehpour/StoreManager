@@ -6,7 +6,7 @@ namespace StoreManager.Common.Entities
 {
     public class OrderDetail
     {
-        public int OrderDetailsId { get; set; }
+        public int OrderDetailId { get; set; }
         public int Qty { get; set; }
         public Decimal Price { get; set; }
         public int ProductId { get; set; }
