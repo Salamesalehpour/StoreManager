@@ -17,5 +17,15 @@ namespace StoreManager.DA.DbContexts
 
             return new StoreManagerContext(builder.Options);
         }
+
+
+        public static StoreManagerContext InMemoryStoreManagerContext()
+        {
+            var builder = new DbContextOptionsBuilder<StoreManagerContext>();
+
+            builder.UseInMemoryDatabase("StoreManagerDb");
+
+            return new StoreManagerContext(builder.Options);
+        }
     }
 }

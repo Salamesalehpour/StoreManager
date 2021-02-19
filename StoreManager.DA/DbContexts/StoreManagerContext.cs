@@ -8,7 +8,7 @@ namespace StoreManager.DA.DbContexts
 {
     public class StoreManagerContext : DbContext
     {
-        public StoreManagerContext(DbContextOptions dbContextOptions)
+        public StoreManagerContext(DbContextOptions<StoreManagerContext> dbContextOptions)
             : base(dbContextOptions)
         {
         }
